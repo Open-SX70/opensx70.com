@@ -2,24 +2,13 @@
 layout: default
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+<div class="ph3 ph5-ns" style="background:url('images/front-page.jpg') no-repeat center;background-size:cover;">
+  <div class="cf mw9 center tc-m">
+    <div class="pb3 pb4-ns pt4 pt5-ns mt4 white-70 fl-l w-50-l">
+      {{ content }}
+    </div>
+  </div>
+</div>
 
 </div>

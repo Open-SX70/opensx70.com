@@ -19,12 +19,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Information and specs on the beautiful Polaroid SX-70 / 680 cameras.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: opensx70
 github_username:  chrisedmo
 
 # Build settings
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
 exclude:
